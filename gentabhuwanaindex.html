@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV. Genta Bhuwana Konstruksi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-color: #fdfdfd;
+    }
+    header {
+      background: linear-gradient(to right, #0a3d2d, #157f5f);
+      color: white;
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 20px;
+      margin: 15px 0;
+    }
+    nav {
+      text-align: center;
+      margin-top: 25px;
+    }
+    nav a {
+      background: white;
+      color: #0a3d2d;
+      padding: 10px 18px;
+      margin: 5px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      background: #e0f0ea;
+      color: #157f5f;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0a3d2d;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .services, .advantages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .contact-form button {
+      background: #0a3d2d;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #157f5f;
+    }
+    footer {
+      background: #0a3d2d;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CV. GENTA BHUWANA KONSTRUKSI</h1>
+    <p>Rancang Ulang, Bangun Ulang, Hidupkan Kembali</p>
+    <nav>
+      <a href="#about">Tentang Kami</a>
+      <a href="#services">Layanan</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah spesialis renovasi dan desain ulang interior yang berkomitmen menghadirkan ruang yang fungsional, estetis, dan berkelanjutan. Dengan tim profesional dan pendekatan desain yang menyatu dengan lingkungan, kami percaya bahwa setiap ruang bisa dihidupkan kembali dengan perencanaan yang tepat dan pelaksanaan yang presisi.</p>
+  </section>
+
+  <section id="services">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+      <div class="card">Renovasi Rumah Tinggal</div>
+      <div class="card">Desain Interior</div>
+      <div class="card">Gambar Kerja & Visualisasi 3D</div>
+      <div class="card">Konsultasi Material & Tata Ruang</div>
+      <div class="card">Pelaksanaan Konstruksi Ringan hingga Menengah</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Keunggulan Kami</h2>
+    <div class="advantages">
+      <div class="card">Ramah Lingkungan</div>
+      <div class="card">Waktu Kerja Terukur</div>
+      <div class="card">Desain Berkualitas</div>
+      <div class="card">Komunikasi Transparan</div>
+      <div class="card">Dokumentasi Proyek</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Silakan hubungi kami untuk konsultasi atau pemesanan jasa:</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Nama Anda" required>
+      <input type="tel" placeholder="Nomor WhatsApp" required>
+      <textarea placeholder="Kebutuhan Anda" rows="5" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Hak Cipta &copy; 2025 CV. Genta Bhuwana Konstruksi</p>
+    <p>Website ini dibangun untuk mendekatkan kami kepada Anda</p>
+  </footer>
+
+</body>
+</html>
